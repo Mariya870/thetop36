@@ -17,7 +17,7 @@ const Header = () => {
     <header className="header">
       <div className="header-container">
         <div className="logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
-          <img src="/assets/logo.svg" alt="TheTop36" className="logo-image" onError={(e) => {
+          <img src="./assets/logo.svg" alt="TheTop36" className="logo-image" onError={(e) => {
             e.target.style.display = 'none';
             e.target.nextSibling.style.display = 'block';
           }} />
