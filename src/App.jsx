@@ -34,7 +34,7 @@ function App() {
       case 'support':
         return <SupportFAQ />;
       default:
-        return <HomePage />;
+        return <HomePage/>;
     }
   };
 
